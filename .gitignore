@@ -1,0 +1,5 @@
+*.mmdb
+crawler.db
+
+# Ignore generated json in /html
+html/*.json

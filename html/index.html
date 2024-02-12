@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Ethereum Nodes</title>
+
+   <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.0.0/dist/maplibre-gl.css' />
+   <script src='https://unpkg.com/maplibre-gl@4.0.0/dist/maplibre-gl.js'></script>
+   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <main>
+      <h1>Ethereum Nodes</h1>
+      <section>
+         <h2>Karte</h2>
+         <p>Die geografische Darstellung aller gecrawlten Nodes. Koordinaten sind per ASN aufgeschlüsselt, Accuracy der Koordinaten variiert und ist nicht berücksichtigt.</p>
+         <div id="map"></div>
+      </section>
+      <section>
+         <h2>Liste und Verteilung der AS</h2>
+         <p>Liste aller gecrawlten autonomous systems (AS) sortiert nach Menge an Nodes.</p>
+         <div id="chart"></div>
+      </section>
+   </main>
+   <script src="main.js"></script>
+</body>
+</html>
